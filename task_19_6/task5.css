@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(248, 221, 188);
+
+}
+
+#div1{
+
+    background-color: aliceblue;
+    border: 1px solid;
+    width: 75%;
+    height: 200px;
+
+}
+
+#div2{
+
+    background-color: aliceblue;
+    border: 1px dotted;
+    width: 75%;
+    height: 200px;
+
+}
+
+#div3{
+
+    background-color: aliceblue;
+    border: 1px solid;
+    width: 75%;
+    height: 200px;
+
+}
+
+#div3 p {
+    border: 1px dotted red;
+    width :70%;
+}
+ .yello{
+    background-color: yellow;
+ }
+
+ .orang{
+    background-color: orange;
+ }
