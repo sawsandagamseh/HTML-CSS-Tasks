@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            /* grid-template-rows:repeat(6,70px); */
+            grid-gap: 10px 10px;
+            
+        }
+        .d1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            height: 30px;
+            
+        }
+        .d2
+        {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            height: 70px;
+        
+        }
+        .d3{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            height: 70px;
+
+        }
+        .d4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            height: 70px;
+        }
+        .d5{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            height: 70px;
+        }
+        .d6{
+            
+            grid-column-start: 3;
+            grid-column-end: 4;
+            height: 70px;
+        }
+        .d7{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            height: 70px;
+        }
+        .d8{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            height: 70px;
+        }
+        .d11{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            height: 30px;
+        }
+        .sub_container{
+            
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-column-gap:10px;
+            grid-column: 1/4;
+            height: 70px;
+        }
+       
+    </style>
+</head>
+<body>
+<div class="container" >
+
+    <div class="div d1" style="background-color: rgb(148, 143, 143);"></div>
+    <div class="div d2" style="background-color: rgb(45, 63, 223);"></div>
+    <div class="div d3" style="background-color: rgb(0, 244, 248);"></div>
+    <div class="div d4" style="background-color: rgb(248, 227, 0);"></div>
+    <div class="div d5" style="background-color: rgb(248, 227, 0);"></div>
+    <div class="div d6" style="background-color: rgb(248, 227, 0);"></div>
+    <div class="div d7" style="background-color: rgb(0, 244, 248);"></div>
+    <div class="div d8" style="background-color: rgb(45, 63, 223);"></div>
+    <div class="sub_container">
+     
+        <div class="div d9" style="background-color: rgb(223, 93, 45);"></div>
+        <div class="div d10" style="background-color: rgb(223, 93, 45);"></div>
+        <div class="div d12" style="background-color: rgb(223, 93, 45);"></div>
+        <div class="div d13" style="background-color: rgb(223, 93, 45);"></div>
+    </div>
+
+    <div class="div d11" style="background-color: rgb(148, 143, 143)";></div>
+
+</div>
+</body>
+</html>
