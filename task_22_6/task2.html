@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto;
+            gap: 10px;
+            
+        }
+        .blue{
+            background-color: blue;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            height: 50px;
+        }
+        .orang{
+            grid-column: 1/2;
+            display: grid;
+            grid-template-rows: 20px 20px 20px 20px;
+            height: 200px;
+            row-gap: 5px;
+            background-color: orange;
+        }
+
+        .gray{
+            grid-column: 2/4;
+            display: grid;
+            grid-template-rows: 30px 30px 30px 30px 30px;
+            height: 200px;
+            row-gap: 5px;
+            /* background-color: gray; */
+            
+        }
+        .green{
+            background-color: green;
+            height: 200px;
+            grid-column: 4/5;
+        }
+        .gray_child{
+            background-color:gray;
+        }
+        .orang_child{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="blue"></div>
+        <div class="green"></div>
+        <div class="gray">
+            <div class="gray_child"></div>
+            <div class="gray_child"></div>
+            <div class="gray_child"></div>
+            <div class="gray_child"></div>
+            <div class="gray_child"></div>
+        </div>
+        <div class="orang">
+            <div class="orang_child"></div>
+            <div class="orang_child"></div>
+            <div class="orang_child"></div>
+            <div class="orang_child"></div>
+        </div>
+    </div>
+</body>
+</html>

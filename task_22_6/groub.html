@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 10px;
+            padding: 10px;
+        }
+        .task2{
+            
+            display: grid;
+            grid-template-columns: 200px 500px 100px ;
+            gap: 10px;
+            
+           
+        }
+
+        .head{
+             background-color: rgb(0, 191, 255) ;
+             height: 100px;
+             grid-column: 1/4;
+             
+        }
+        .left{
+            background-color:orange ;
+            height: 340px;
+
+
+        }
+        .middle{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            height: 300px;
+            gap: 10px;
+            
+             
+
+        }
+        .mid1{
+           background-color: gray;
+            height:60px;
+            grid-column: 1/4;
+            
+           
+        }
+        .right{
+            background-color: rgb(22, 180, 22);
+            height:340px;
+        }
+        p{
+            background-color: aliceblue;
+           margin-left: 10px;
+           width: 170px;
+            height: 20px;
+        }
+        @media screen and (min-width:426px) and (max-width:768px) {
+
+            .task2{
+            
+            display: grid;
+            grid-template-columns: 200px 500px 100px ;
+            gap: 10px;
+            
+           
+        }
+
+        .head{
+             background-color: rgb(0, 191, 255) ;
+             height: 100px;
+             grid-column: 1/4;
+        }
+        .left{
+            display: flex;
+            justify-content: center;
+            background-color:orange ;
+            height: 40px;
+            grid-column: 1/4;
+            padding: 10px;
+
+        }
+           
+        .middle{
+            grid-template-columns: auto  ;
+            height: 300px;
+            gap: 10px;
+            grid-column: 1/4;
+             
+
+        }
+        .mid1{
+           background-color: gray;
+            height:60px;
+           
+           
+        }
+        .right{
+            background-color: rgb(22, 180, 22);
+            height:200px;
+            grid-column: 1/4;
+        }
+        p{
+            background-color: aliceblue;
+            margin-left: 10px;
+            width: 170px;
+            height: 20px;
+        }
+            
+    }
+
+
+        @media screen and (max-width:425px){
+     
+            .task2{
+            
+            display: grid;
+            grid-template-columns: 200px 500px 100px ;
+            gap: 10px;
+            
+           
+        }
+
+        .head{
+             background-color: rgb(0, 191, 255) ;
+             height: 100px;
+             grid-column: 1/4;
+        }
+        .left{display: block;
+            
+            background-color:orange ;
+            height: 160px;
+            grid-column: 1/4;
+
+        }
+        .left p{
+            width: auto;
+           
+        }
+       
+        .middle{
+            grid-template-columns: auto   ;
+            height: 300px;
+            gap: 10px;
+            grid-column: 1/4;
+             
+
+        }
+        .mid1{
+           background-color: gray;
+            height:60px;
+          
+           
+        }
+        .right{
+            background-color: rgb(22, 180, 22);
+            height:50px;
+            grid-column: 1/4;
+        }
+        p{
+            background-color: aliceblue;
+           margin-left: 10px;
+            height: 20px;
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+    
+<div class="task2">
+      <div class="head"></div>
+      <div class="left">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    <div class="middle">
+        <div class="mid1"></div>
+        <div class="mid1"></div>
+        <div class="mid1"></div>
+        <div class="mid1"></div>
+        <div class="mid1"></div>
+    </div>
+    <div class="right"></div>
+</div>
+   
+</body>
+</html>

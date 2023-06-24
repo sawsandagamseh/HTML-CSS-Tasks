@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        .perant {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+
+        }
+
+        .green {
+            background-color: greenyellow;
+            height: 100px;
+
+            grid-column: 1/4;
+        }
+
+        .blue {
+
+            height: 100px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column: 1/4;
+            gap: 10px;
+
+
+        }
+
+        .blue_child {
+            background-color: blue;
+
+        }
+
+        .gray {
+
+            height: 100px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-column: 1/4;
+            gap: 10px;
+
+        }
+
+        .gray_child {
+            background-color: gray;
+
+        }
+
+        @media screen and (min-width:481px) and (max-width: 768px) {
+            .blue {
+                grid-template-columns: auto;
+            }
+
+            .gray {
+
+                height: 100px;
+                display: grid;
+                grid-template-columns: auto auto;
+                /* grid-template-rows: auto auto; */
+                /* grid-column: 1/4; */
+                gap: 10px;
+
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            .blue {
+                grid-template-columns: auto;
+            }
+
+            .gray {
+
+                height: 100px;
+                display: grid;
+                grid-template-columns: auto;
+
+                /* grid-column: 1/4; */
+                gap: 10px;
+
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="perant">
+        <div class="green"></div>
+        <div class="blue">
+            <div class="blue_child "></div>
+            <div class="blue_child"></div>
+            <div class="blue_child"></div>
+        </div>
+
+        <div class="gray">
+            <div class="gray_child"></div>
+            <div class="gray_child"></div>
+            <div class="gray_child"></div>
+            <div class="gray_child"></div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
